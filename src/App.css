@@ -1,38 +1,81 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  background-image: url("./Images/BG.png");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+  /* height: 720px; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.white-bg {
+  background-color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.mainContainer {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.mainContainer-inner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.right-side {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
+}
+
+.side {
+  display: flex;
+  /* flex-wrap: wrap; */
+  max-width: 300px;
+  /* min-width: 300px; */
+  width: 100%;
+  height: 500px;
+  margin-top: 20px;
+  padding: 1rem;
+}
+
+.cardCustom {
+  /* max-width: 600px; */
+  width: 100%;
+  height: 400px;
+  margin-top: 20px;
+  padding: 1rem;
+
+}
+
+@media only screen and (min-width: 300px) {
+
+  /* FOR MOBLE DEVICES */
+  .mainContainer-inner {
+    flex-wrap: wrap;
   }
-  to {
-    transform: rotate(360deg);
+
+  .side {
+    margin: 20px 0 0 0;
+    max-width: 100%;
   }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+  /* FOR TABLET AND ABOVE DEVICES */
+
+  .mainContainer-inner {
+    flex-wrap: nowrap;
+  }
+
+  .side {
+    margin: 20px 20px 20px 0;
+    max-width: 300px;
+  }
+  
 }

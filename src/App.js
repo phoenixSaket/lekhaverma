@@ -1,24 +1,38 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { Container, Navbar, Nav } from 'react-bootstrap';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar bg="transparent" expand="lg">
+        <Navbar.Brand>
+          Lekha Verma
+          </Navbar.Brand>
+        <Navbar.Toggle aria-controls="top-navbar" />
+        <Navbar.Collapse id="top-navbar" className="justify-content-end">
+          <Nav>
+            <Nav.Link href="about">
+              About
+              </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
+      <Container className="mainContainer" size="xl">
+        <div className="mainContainer-inner">
+          <div className="side white-bg">
+            Side
+        </div>
+          <div className="right-side">
+            <div className="aboutMe cardCustom white-bg">
+              About Me
+            </div>
+            <div className="portfolio cardCustom white-bg">
+              Portfolio
+            </div>
+          </div>
+        </div>
+      </Container>
     </div>
   );
 }
