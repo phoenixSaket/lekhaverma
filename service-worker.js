@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/lekhaverma/precache-manifest.1c98a9b90395bd1f09488433c62b7648.js"
+  "/lekhaverma/precache-manifest.5061276c577f2a7e0b0eff170835df8d.js"
 );
 
 self.addEventListener('message', (event) => {

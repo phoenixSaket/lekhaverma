@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/lekhaverma/static/css/main.b66673ac.chunk.css",
-    "main.js": "/lekhaverma/static/js/main.16041773.chunk.js",
-    "main.js.map": "/lekhaverma/static/js/main.16041773.chunk.js.map",
+    "main.css": "/lekhaverma/static/css/main.77513acf.chunk.css",
+    "main.js": "/lekhaverma/static/js/main.b9de3f4a.chunk.js",
+    "main.js.map": "/lekhaverma/static/js/main.b9de3f4a.chunk.js.map",
     "runtime-main.js": "/lekhaverma/static/js/runtime-main.7a8dbed3.js",
     "runtime-main.js.map": "/lekhaverma/static/js/runtime-main.7a8dbed3.js.map",
     "static/css/2.af3c1da9.chunk.css": "/lekhaverma/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.60e42569.chunk.js": "/lekhaverma/static/js/2.60e42569.chunk.js",
-    "static/js/2.60e42569.chunk.js.map": "/lekhaverma/static/js/2.60e42569.chunk.js.map",
+    "static/js/2.78ae96ec.chunk.js": "/lekhaverma/static/js/2.78ae96ec.chunk.js",
+    "static/js/2.78ae96ec.chunk.js.map": "/lekhaverma/static/js/2.78ae96ec.chunk.js.map",
     "index.html": "/lekhaverma/index.html",
-    "precache-manifest.1c98a9b90395bd1f09488433c62b7648.js": "/lekhaverma/precache-manifest.1c98a9b90395bd1f09488433c62b7648.js",
+    "precache-manifest.5061276c577f2a7e0b0eff170835df8d.js": "/lekhaverma/precache-manifest.5061276c577f2a7e0b0eff170835df8d.js",
     "service-worker.js": "/lekhaverma/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/lekhaverma/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.b66673ac.chunk.css.map": "/lekhaverma/static/css/main.b66673ac.chunk.css.map",
-    "static/js/2.60e42569.chunk.js.LICENSE.txt": "/lekhaverma/static/js/2.60e42569.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/lekhaverma/static/media/BG.f8d6bb05.png"
+    "static/css/main.77513acf.chunk.css.map": "/lekhaverma/static/css/main.77513acf.chunk.css.map",
+    "static/js/2.78ae96ec.chunk.js.LICENSE.txt": "/lekhaverma/static/js/2.78ae96ec.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/lekhaverma/static/media/BG.f8d6bb05.png",
+    "static/media/lekhaAvatar.png": "/lekhaverma/static/media/lekhaAvatar.38c49bc4.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7a8dbed3.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.60e42569.chunk.js",
-    "static/css/main.b66673ac.chunk.css",
-    "static/js/main.16041773.chunk.js"
+    "static/js/2.78ae96ec.chunk.js",
+    "static/css/main.77513acf.chunk.css",
+    "static/js/main.b9de3f4a.chunk.js"
   ]
 }
