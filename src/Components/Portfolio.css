@@ -1,0 +1,12 @@
+.portfolioContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:20px;
+}
+
+.portfolioDescription {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
