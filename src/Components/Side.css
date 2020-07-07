@@ -1,0 +1,4 @@
+.main-side-container {
+    display: flex;
+    flex-direction: column;
+}

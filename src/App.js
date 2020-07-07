@@ -1,27 +1,33 @@
 import React from 'react';
 import './App.css';
 import { Container, Navbar, Nav } from 'react-bootstrap';
+import Side from './Components/Side';
 
 function App() {
   return (
     <div className="App">
-      <Navbar bg="transparent" expand="lg">
-        <Navbar.Brand>
-          Lekha Verma
+      <Container  className="mainContainer" size="xl">
+        <Navbar expand="sm" className="shadows">
+          <Navbar.Brand>
+            {/* <img
+              alt="Logo"
+              src={require("./Images/lekhaAvatar.png")}
+              style={{ width: '40x', height: '40px', marginRight: '10px', borderRadius: "0%" }}
+            /> */}
+            Lekha Verma
           </Navbar.Brand>
-        <Navbar.Toggle aria-controls="top-navbar" />
-        <Navbar.Collapse id="top-navbar" className="justify-content-end">
-          <Nav>
-            <Nav.Link href="about">
-              About
+          <Navbar.Toggle aria-controls="top-navbar" />
+          <Navbar.Collapse id="top-navbar" className="justify-content-end">
+            <Nav>
+              <Nav.Link href="about">
+                About
               </Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Navbar>
-      <Container className="mainContainer" size="xl">
+            </Nav>
+          </Navbar.Collapse>
+        </Navbar>
         <div className="mainContainer-inner">
-          <div className="side white-bg">
-            Side
+          <div className="side dark-bg">
+            <Side />
         </div>
           <div className="right-side">
             <div className="aboutMe cardCustom white-bg">
