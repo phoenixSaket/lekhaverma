@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/lekhaverma/static/css/main.7dae3a6a.chunk.css",
-    "main.js": "/lekhaverma/static/js/main.8202af3c.chunk.js",
-    "main.js.map": "/lekhaverma/static/js/main.8202af3c.chunk.js.map",
+    "main.css": "/lekhaverma/static/css/main.da444577.chunk.css",
+    "main.js": "/lekhaverma/static/js/main.d376ab6c.chunk.js",
+    "main.js.map": "/lekhaverma/static/js/main.d376ab6c.chunk.js.map",
     "runtime-main.js": "/lekhaverma/static/js/runtime-main.7a8dbed3.js",
     "runtime-main.js.map": "/lekhaverma/static/js/runtime-main.7a8dbed3.js.map",
     "static/css/2.af3c1da9.chunk.css": "/lekhaverma/static/css/2.af3c1da9.chunk.css",
     "static/js/2.403d80f5.chunk.js": "/lekhaverma/static/js/2.403d80f5.chunk.js",
     "static/js/2.403d80f5.chunk.js.map": "/lekhaverma/static/js/2.403d80f5.chunk.js.map",
     "index.html": "/lekhaverma/index.html",
-    "precache-manifest.eeedb0fa17347eaad7f66666f6528edb.js": "/lekhaverma/precache-manifest.eeedb0fa17347eaad7f66666f6528edb.js",
+    "precache-manifest.60720de5fd950c20a9fd409eecc4efd5.js": "/lekhaverma/precache-manifest.60720de5fd950c20a9fd409eecc4efd5.js",
     "service-worker.js": "/lekhaverma/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/lekhaverma/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.7dae3a6a.chunk.css.map": "/lekhaverma/static/css/main.7dae3a6a.chunk.css.map",
+    "static/css/main.da444577.chunk.css.map": "/lekhaverma/static/css/main.da444577.chunk.css.map",
     "static/js/2.403d80f5.chunk.js.LICENSE.txt": "/lekhaverma/static/js/2.403d80f5.chunk.js.LICENSE.txt",
     "static/media/App.css": "/lekhaverma/static/media/BG.f8d6bb05.png",
     "static/media/lekhaAvatar.png": "/lekhaverma/static/media/lekhaAvatar.38c49bc4.png"
@@ -21,7 +21,7 @@
     "static/js/runtime-main.7a8dbed3.js",
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.403d80f5.chunk.js",
-    "static/css/main.7dae3a6a.chunk.css",
-    "static/js/main.8202af3c.chunk.js"
+    "static/css/main.da444577.chunk.css",
+    "static/js/main.d376ab6c.chunk.js"
   ]
 }
