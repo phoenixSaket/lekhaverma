@@ -71,7 +71,7 @@ function App() {
               <Portfolio />
             </div>
             <div className="portfolio shadows blankCard white-bg">
-              {/* Portfolio */}
+              AWARDS
             </div><div className="portfolio shadows blankCard white-bg">
               {/* Portfolio */}
             </div><div className="portfolio shadows blankCard white-bg">

@@ -24,6 +24,7 @@ html {
   position: sticky !important;
   top: 0;
   width: inherit;
+  z-index: 798456132;
   /* max-width: 1110px; */
 }
 
