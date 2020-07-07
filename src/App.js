@@ -26,14 +26,14 @@ function App() {
           </Navbar.Collapse>
         </Navbar>
         <div className="mainContainer-inner">
-          <div className="side dark-bg">
+          <div className="side shadows dark-bg">
             <Side />
         </div>
           <div className="right-side">
-            <div className="aboutMe cardCustom white-bg">
+            <div className="aboutMe shadows cardCustom white-bg">
               About Me
             </div>
-            <div className="portfolio cardCustom white-bg">
+            <div className="portfolio shadows cardCustom white-bg">
               Portfolio
             </div>
           </div>
