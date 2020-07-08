@@ -11,11 +11,14 @@ function Education() {
       <div className="educationContainerInner">
         <Container>
           <Row>
-            <Col sm={3} className="durationContainer">
-              <span className="duration">2009 - 2014</span>
+            <Col xs={3} className="durationContainer">
+              <div className="innerDuration">
+                <span className="duration">2009 - 2014</span>
+                <div className="triangle" />
+              </div>
             </Col>
-            <Col sm={1} className="verticalLine" />
-            <Col sm={8} className="eduactionalQualification">
+            <Col xs={1} className="verticalLine" />
+            <Col xs={8} className="eduactionalQualification">
               <div className="degree">
                 Bachelor of Architecture (B. Arch.)
               </div>
@@ -24,6 +27,60 @@ function Education() {
               </div>
               <div className="city">
                 Nagpur
+              </div>
+            </Col>
+          </Row>
+
+          <Row style={{ height: '40px' }}>
+            <Col xs={3} className="durationContainer" />
+            <Col xs={1} className="verticalLine" />
+            <Col xs={8} className="eduactionalQualification" />
+          </Row>
+
+          <Row>
+            <Col xs={3} className="durationContainer">
+              <div className="innerDuration">
+                <span className="duration">2009</span>
+                <div className="triangle" />
+              </div>
+            </Col>
+            <Col xs={1} className="verticalLine" />
+            <Col xs={8} className="eduactionalQualification">
+              <div className="degree">
+                Higher Secondary Certificate (HSC)
+              </div>
+              <div className="college">
+                Ushabai Deshmukh Jr. College
+              </div>
+              <div className="city">
+                Achalpur
+              </div>
+            </Col>
+          </Row>
+
+          <Row style={{ height: '40px' }}>
+            <Col xs={3} className="durationContainer" />
+            <Col xs={1} className="verticalLine" />
+            <Col xs={8} className="eduactionalQualification" />
+          </Row>
+
+          <Row>
+            <Col xs={3} className="durationContainer">
+              <div className="innerDuration">
+                <span className="duration">2007</span>
+                <div className="triangle" />
+              </div>
+            </Col>
+            <Col xs={1} className="verticalLine" />
+            <Col xs={8} className="eduactionalQualification">
+              <div className="degree">
+                Secondary School Certificate (SSC)
+              </div>
+              <div className="college">
+                Subodh High School
+              </div>
+              <div className="city">
+                Achalpur
               </div>
             </Col>
           </Row>

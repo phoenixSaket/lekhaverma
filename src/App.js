@@ -39,19 +39,19 @@ function App() {
               <Nav.Link
                 // href="#AboutMe"
                 onClick={() => {
-                  // console.log(window.innerWidth);
-                  if( window.innerWidth > 1024 ) {
-                    window.scrollTo(document.body, 270, 1250)
+                  console.log(window.innerWidth);
+                  if (window.innerWidth > 1024) {
+                    window.scrollTo(document.body, 330, 1250)
                   } else if (window.innerWidth <= 1024 && window.innerWidth > 992) {
-                    window.scrollTo(document.body, 295, 1250)
+                    window.scrollTo(document.body, 355, 1250)
                   } else if (window.innerWidth < 992 && window.innerWidth >= 768) {
-                    window.scrollTo(document.body, 790, 1250)
+                    window.scrollTo(document.body, 850, 1250)
                   } else if (window.innerWidth < 768 && window.innerWidth >= 425) {
-                    window.scrollTo(document.body, 890, 0)
+                    window.scrollTo(document.body, 945, 0)
                   } else if (window.innerWidth < 425 && window.innerWidth >= 375) {
-                    window.scrollTo(document.body, 915, 0)
+                    window.scrollTo(document.body, 965, 0)
                   } else if (window.innerWidth < 375 && window.innerWidth > 300) {
-                    window.scrollTo(document.body, 980, 0)
+                    window.scrollTo(document.body, 1045, 0)
                   }
                 }}
               >
@@ -71,7 +71,7 @@ function App() {
             <div className="portfolio shadows cardCustom white-bg">
               <Portfolio />
             </div>
-            <div className="portfolio shadows blankCard white-bg">
+            <div className="portfolio shadows cardCustom white-bg">
               <Education />
             </div><div className="portfolio shadows blankCard white-bg">
               {/* Portfolio */}
