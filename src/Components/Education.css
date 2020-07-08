@@ -1,0 +1,40 @@
+/* .educationContainer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+} */
+
+/* .educationContainerInner {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+} */
+
+.eduactionalQualification {
+    /* height: fit-content; */
+    text-align: left;
+}
+
+.verticalLine {
+  border-left: 6px solid #2B2B2B;
+  padding: 0 !important;
+  max-width: 6px !important;
+  /* height: 100%; */
+  /* width: 6px !important; */
+}
+
+.duration {
+    background-color: khaki;
+    height: fit-content;
+    text-align: right;
+    padding: 5px;
+}
+
+.durationContainer{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5px !important;
+}

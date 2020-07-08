@@ -4,6 +4,7 @@ import { Container, Navbar, Nav } from 'react-bootstrap';
 import Side from './Components/Side';
 import AboutMe from './Components/AboutMe';
 import Portfolio from './Components/Portfolio';
+import Education from './Components/Education';
 
 function App() {
   // console.log(document.getElementById(AboutMe));
@@ -71,7 +72,7 @@ function App() {
               <Portfolio />
             </div>
             <div className="portfolio shadows blankCard white-bg">
-              AWARDS
+              <Education />
             </div><div className="portfolio shadows blankCard white-bg">
               {/* Portfolio */}
             </div><div className="portfolio shadows blankCard white-bg">
